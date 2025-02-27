@@ -1,0 +1,22 @@
+# Git 관련 파일 제외
+.git/
+.gitignore
+
+# 환경 변수 파일 제외 (Docker 내부에 직접 설정 필요)
+.env
+
+# 캐시 및 빌드 관련 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.log
+
+# 데이터베이스 및 검색 인덱스 제외 (볼륨 마운트 방식으로 관리)
+data/faiss_index/
+
+# IDE 설정 파일 제외
+.vscode/
+.idea/

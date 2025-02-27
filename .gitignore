@@ -1,0 +1,22 @@
+# 환경 변수 파일 (민감 정보 보호)
+.env
+
+# Python 캐시 및 가상환경 관련 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# FAISS 인덱스 데이터 (대용량 바이너리 파일)
+data/faiss_index/
+
+# Streamlit 및 Jupyter Notebook 캐시
+.streamlit/
+.ipynb_checkpoints/
+
+# 로그 및 기타 임시 파일
+logs/
+*.log
+.DS_Store
