@@ -105,6 +105,14 @@ Streamlit UI는 `http://localhost:8501`에서 실행됩니다.
 
 ---
 
+---
+## 화면 예시 
+
+![질문](image1.png)
+![대답](image2.png)
+![추가사항항](image3.png)
+---
+
 ## 📌 추가 사항
 
 - **테스트 코드 작성**: `pytest` 기반 API 테스트 추가 예정
