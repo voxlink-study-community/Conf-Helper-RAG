@@ -13,5 +13,5 @@ COPY . .
 # 환경 변수 설정
 ENV PYTHONUNBUFFERED=1
 
-# 컨테이너 실행 명령
-CMD ["python", "main.py"]
+# FastAPI와 Streamlit을 동시에 실행
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --reload & streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0"]
