@@ -9,7 +9,8 @@ __pycache__/
 venv/
 env/
 .venv/
-
+old/
+.test_*
 # FAISS 인덱스 데이터 (대용량 바이너리 파일)
 data/faiss_index/
 
@@ -21,3 +22,4 @@ data/faiss_index/
 logs/
 *.log
 .DS_Store
+README_old.md
